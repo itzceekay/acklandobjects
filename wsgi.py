@@ -724,3 +724,4 @@ def number17_no():
             return redirect(url_for('number17_no'))
 
     return render_template('number17_no.html')
+app.run(debug=True)
